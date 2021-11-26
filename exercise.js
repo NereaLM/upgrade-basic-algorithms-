@@ -147,3 +147,24 @@ if ((number2 / 2 == number1) || (number1 / 5 == number3)) {
 
 
 
+//ITERACION#6: BUCLES
+
+for (let i = 0; i <= 9; i++){
+    console.log("imprimiendo del 0 al 9: " + i);
+};
+
+
+
+for (let i = 0; i <= 9; i++){
+    if (i % 2 == 0){
+        console.log("imprimiendo pares: " + i);
+    } 
+};
+
+for (let i = 0; i <= 10; i++){
+    if (i <= 9){
+        console.log("Intentando dormir");
+    } else {
+        console.log("Dormido!");
+    }
+};
