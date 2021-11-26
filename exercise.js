@@ -42,3 +42,41 @@ console.log(car2.finalPrice);
 
 
 
+//ITERACION#3: OPERADORES
+
+ let a = 10;
+ let b = 5;
+ let total = a * b;
+ console.log(total);
+//  alert(total);
+
+ let c = 10;
+ let d = 2;
+ let total2 = c / d;
+  console.log(total2);
+//   alert(total2);
+
+
+let e = 15;
+let f = 9;
+let total3 = e % f;
+console.log(total3);
+//alert(total3);
+
+let y1 = 10;
+let z1 = 5;
+let x1 = y1 + z1;
+console.log(x1);
+
+
+let y2 = 10;
+let z2 = 5;
+let x2 = y2 * z2;
+console.log(x2);
+
+
+
+
+
+
+
