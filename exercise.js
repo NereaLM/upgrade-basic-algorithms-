@@ -76,6 +76,38 @@ console.log(x2);
 
 
 
+//ITERACION#4: ARRAYS
+
+const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+let positionHulk = avengers.indexOf("HULK"); 
+console.log(positionHulk);
+
+const avengers1 = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+avengers1.unshift("IRONMAN");
+console.log(avengers1);
+
+const avengers2 = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+console.log("Avengers2 length: " + avengers2.length);
+
+const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
+console.log(rickAndMortyCharacters);
+rickAndMortyCharacters.push("Morty", "Summer");
+console.log(rickAndMortyCharacters);
+console.log("Ultimo personaje del array: " + rickAndMortyCharacters[rickAndMortyCharacters.length-1]);
+
+
+const rickAndMortyCharacters1 = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
+rickAndMortyCharacters1.pop();
+console.log(rickAndMortyCharacters1);
+console.log("Primer personaje del array: " + rickAndMortyCharacters1[0]);
+console.log("Ultimo personaje del array: " + rickAndMortyCharacters1[rickAndMortyCharacters1.length-1]);
+
+const rickAndMortyCharacters2 = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
+console.log(rickAndMortyCharacters2);
+rickAndMortyCharacters2.splice(1,1);
+console.log(rickAndMortyCharacters2);
+
+
 
 
 
